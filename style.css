@@ -1,0 +1,64 @@
+
+
+
+
+  h1{
+     color:red;
+  }
+
+  body {
+      background-color: beige;
+  }
+
+  .header{
+      
+    background-color:darkorange;
+    color: aqua;
+      display: flex;
+      justify-content:space-around;
+      padding: 10px;
+      margin: 20px;
+      
+  }
+
+  .grid{
+    display: flex;  
+    flex-wrap: wrap;
+    
+ }
+
+ .camel{
+     display: flex;
+     flex-wrap:wrap; 
+     justify-content:first baseline ;
+ }
+
+
+ .cham{
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: first baseline;
+}
+
+.cicada{
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: first baseline;
+}
+
+a:link{
+    color:palegreen
+}
+
+a:visited{
+    color:bisque;
+}
+
+.im:hover img{
+opacity: 0.10;
+}
+
+.chim:hover img {
+opacity: 0.10;
+}
+
